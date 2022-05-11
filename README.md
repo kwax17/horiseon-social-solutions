@@ -40,6 +40,12 @@ Second, disorganized code in the .css styling sheet makes it harder for future c
 
 In terms of user experience, there were no < alt > tags on the images, which make the page inaccessible for anyone using a screenreader. This opens up the client to litigation, which is not what you want. It also lets viewers having technical or web issues see a written description of what they're supposed to be seeing. 
 
+## Deployed Website 
+
+https://kwax17.github.io/horiseon-social-solutions/
+
+![Horiseon Website dployed on Google Chrome](./assets/images/website-deployed.png)
+
 
 
 
