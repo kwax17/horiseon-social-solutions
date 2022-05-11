@@ -12,13 +12,13 @@ The three large blocks of text outline the ways in which Horiseon could help the
 
 There wasn't much accessibility at first.  To fix this, I inserted < alt > tags on the images and pictures.  This functions to make it easier for screen readers or those with disabilities to use and interact with the website as well.  It also will tell any user what the image if for some reason it is unable to load.
 
-There was also a title missing in the browser tab, so I gave it a short description of the purpose of the comapny. 
+There was also a title missing in the browser tab, so I gave a short description of the purpose of the comapny. 
 
 ### Back End - HTML
 
 I cleaned up the code in a number of ways. 
 
-The first is including semantic html instead of the more vague elements originally used.  This would include items such as turning the < section > with the header and navigation to the more specific < header > so that the browser can more easily read the code. It also helps to connect the .css file as it is clear what is connected to what.  The same was done to the < footer > sections
+The first is including semantic html instead of the more vague elements originally used.  This would include items such as turning the < section > with the header and navigation to the more specific < header > so that the browser can more easily read the code. It also helps to connect the .css file as it is clear what is referring to what.  The same was done to the < footer > sections
 
 I also turned the < div > containers that had the main content of the website into 3 individual < article > tags.  They are related but each have independent content and images, so it makes sense to clarify their functions. This also negates the need for so many identifiers, so I deleted the extra class selector in the individual < article >.
 
@@ -28,7 +28,7 @@ I also added comments to make it easy to distinguish the different sections.
 
 ### Back End - CSS
 
-I started by changing the selectors to match the new semantic HTML.  This made it easier to know what exactly was connected. For exmaple, the entire < aside > section now refers to just that section tag, along with the clarifying selectors within it. Sections for the hero and the main content must use a class selector since their tags are more general. The < header > and < footer > selectors were also updated.
+I started by changing the selectors to match the new semantic HTML.  This made it easier to know what exactly was connected. For exmaple, the aside {} now refers to just that section tag named < aside >, along with the clarifying selectors within it. Sections for the hero and the main content must use a class selector since their tags are more general. The < header > and < footer > selectors were also updated.
 
 The next time I changed was the order of the code.  Some sections were jumbled in the sense that multiple sections were being referred to, but not in chunks.  I rearranged it so the styles of one section are all together (i.e. all the < footer > styles are in the same part of the code, uninterrupted). After this, I made comments to clarify what section is which so that the next coder can easily read the file.
 
